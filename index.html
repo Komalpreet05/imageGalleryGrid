@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png" />
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <h1 id="head">MY <span class="role"></span></h1>
+        <div class="gallery">
+          <figure class="card">
+            <img class="pic" src="images/image1.jpeg" alt="image1" />
+            <figcaption>Image1</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image2.jpeg" alt="image2" />
+            <figcaption>Image2</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image3.avif" alt="image3" />
+            <figcaption>Image3</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image4.avif" alt="image4" />
+            <figcaption>Image4</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image5.jpeg" alt="image5" />
+            <figcaption>Image5</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image6.jpeg" alt="image6" />
+            <figcaption>Image6</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image7.jpeg" alt="image7" />
+            <figcaption>Image7</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image8.jpeg" alt="image8" />
+            <figcaption>Image8</figcaption>
+          </figure>
+          <figure class="card">
+            <img class="pic" src="images/image9.jpeg" alt="image9" />
+            <figcaption>Image9</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: ["GALLERY"],
+        loop: true,
+        typeSpeed: 180,
+        backSpeed: 150,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
